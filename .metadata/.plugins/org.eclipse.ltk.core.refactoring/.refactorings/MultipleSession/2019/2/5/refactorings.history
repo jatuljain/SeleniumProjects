@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MultipleSession/testng&apos; to &apos;testng.xml&apos;" description="Rename resource &apos;testng&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="testng" name="testng.xml" stamp="1549000161808" updateReferences="true"/>
+</session>

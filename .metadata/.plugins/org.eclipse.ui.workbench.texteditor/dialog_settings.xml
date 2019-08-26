@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="&lt;!-- These are the selenium-cucumber methods dependencies --&gt;" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="&lt;!-- These are the selenium-cucumber methods dependencies --&gt;"/>
+			<item value="NewTest"/>
+			<item value="org.apache.maven.plugins"/>
+			<item value="artifactId&gt;maven-surefire-plugin"/>
+			<item value="&lt;source&gt;1.6&lt;/source&gt;"/>
+			<item value="href"/>
+			<item value="Select"/>
+			<item value="Thread.sleep(3000)"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Thread.sleep(1000)"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="353" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="513" key="DIALOG_HEIGHT"/>
+		<item value="795" key="DIALOG_X_ORIGIN"/>
+		<item value="179" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

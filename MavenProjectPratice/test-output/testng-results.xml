@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15054" started-at="2019-02-01T07:16:09Z" finished-at="2019-02-01T07:16:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15054" started-at="2019-02-01T07:16:09Z" finished-at="2019-02-01T07:16:24Z">
+      <class name="MavenPractiseProject.oopsconcept">
+        <test-method status="FAIL" signature="Polymorphism([Ljava.lang.String;)[pri:0, instance:MavenPractiseProject.oopsconcept@343f4d3d]" name="Polymorphism" duration-ms="0" started-at="2019-02-01T07:16:09Z" finished-at="2019-02-01T07:16:09Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [Polymorphism] with [class [Ljava.lang.String;].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [Polymorphism] with [class [Ljava.lang.String;].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Polymorphism -->
+      </class> <!-- MavenPractiseProject.oopsconcept -->
+      <class name="MavenPractiseProject.NewTest">
+        <test-method status="PASS" signature="executSessionOne()[pri:0, instance:MavenPractiseProject.NewTest@57baeedf]" name="executSessionOne" duration-ms="12093" started-at="2019-02-01T07:16:09Z" finished-at="2019-02-01T07:16:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executSessionOne -->
+        <test-method status="PASS" signature="f()[pri:0, instance:MavenPractiseProject.NewTest@57baeedf]" name="f" duration-ms="20" started-at="2019-02-01T07:16:09Z" finished-at="2019-02-01T07:16:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="executSessionThree()[pri:0, instance:MavenPractiseProject.NewTest@57baeedf]" name="executSessionThree" duration-ms="15002" started-at="2019-02-01T07:16:09Z" finished-at="2019-02-01T07:16:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executSessionThree -->
+      </class> <!-- MavenPractiseProject.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
